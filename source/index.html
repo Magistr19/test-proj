@@ -15,114 +15,328 @@
       <include src="build/img/sprite.svg"></include>
   </div>
 
-  <ul class="cards-list">
-    <li class="product-card">
-      <ul class="product-card__view-list">
-        <li class="product-card__view-item product-card__view-item--youtube">
-          <a href="#">
-            <span class="screen-reader">посмотреть в Youtube</span>
-            <svg role="presentation" width="20" height="14" fill="#999999">
-              <use xlink:href="#youtube-icon"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="product-card__view-item product-card__view-item--rotate">
-          <a href="#">
-            <svg role="presentation" width="22" height="19" fill="#999999">
-              <use xlink:href="#rotate-icon"></use>
-            </svg>
-            <span class="screen-reader">посмотреть на 360 градусов</span>
-          </a>
-        </li>
-      </ul>
-      <div class="product-card__image-wrapper">
-        <a href="#" class="product-card__image">
-          <img src="img/product-1.jpg" alt='Samsung Galaxy Tab E 9.6" 3G 8Gb (SM-T561NZKA) Black'>
-        </a>
-        <ul class="product-card__colors">
-          <li class="product-card__color product-card__color--black product-card__color--active"><a href="#"><span class="screen-reader">Черный цвет</span></a></li>
-          <li class="product-card__color product-card__color--pink"><a href="#"><span class="screen-reader">Светло-розовый цвет</span></a></li>
+  <div class="container">
+    <ul class="cards-list">
+      <li class="product-card">
+        <ul class="product-card__view-list">
+          <li class="product-card__view-item product-card__view-item--youtube">
+            <a href="#">
+              <span class="screen-reader">посмотреть в Youtube</span>
+              <svg role="presentation" width="20" height="14" fill="#999999">
+                <use xlink:href="#youtube-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="product-card__view-item product-card__view-item--rotate">
+            <a href="#">
+              <svg role="presentation" width="22" height="19" fill="#999999">
+                <use xlink:href="#rotate-icon"></use>
+              </svg>
+              <span class="screen-reader">посмотреть на 360 градусов</span>
+            </a>
+          </li>
         </ul>
-      </div>
-      <div class="product-card__container">
-        <div class="rating-stars">
-          <div class="rating-stars__stars-empty"></div>
-          <div class="rating-stars__stars-full"></div>
-          <span class="screen-reader">Рейтинг: </span>
-          <span class="rating-stars__number">5.0</span>
-        </div>
-        <div class="reviews-info product-card__reviews">
-          <a href="#" class="reviews-info__number">136 отзывов</span>
-        </div>
-      </div>
-      <p class="product-card__code">
-        <span class="product-card__code-text">Код: </span>
-        <span class="product-card__code-number">5G2MY-526123</span>
-      </p>
-      <p class="product-card__availability">В наличии</p>
-      <h2 class="product-card__name">
-        <a href="#">Samsung Galaxy Tab E 9.6" 3G 8Gb (SM-T561NZKA) Black</a>
-      </h2>
-      <ul class="product-card__memory-list">
-        <li class="product-card__memory-item product-card__memory-item--active">
-          <a href="#">16Gb</a>
-        </li>
-        <li class="product-card__memory-item">
-          <a href="#">32Gb</a>
-        </li>
-      </ul>
-      <div class="product-card__price-content">
-        <p class="product-card__discount-program">По программе «Цитрус Обмен»:</p>
-        <p class="product-card__price">
-          <span class="product-card__old-price">30 580</span>
-          <span class="product-card__original-price">22 599</span>
-          <span class="product-card__currency">грн</span>
-        </p>
-        <p class="product-card__economy">Экономия: <span class="product-card__economy-price">7 981 грн</span></p>
-      </div>
-      <ul class="short-nav product-card__short-nav">
-        <li class="short-nav__item short-nav__item--compare">
-          <button><span class="screen-reader">Сравнить товар</span>
-            <svg role="presentation" width="21" height="19" fill="#999999">
-              <use xlink:href="#compare-icon"></use>
-            </svg>
-          </button>
-        </li>
-        <li class="short-nav__item short-nav__item--like">
-          <button><span class="screen-reader">Добавить в избранное</span>
-            <svg role="presentation" width="20" height="19" fill="#999999">
-              <use xlink:href="#like-icon"></use>
-            </svg>
-          </button>
-        </li>
-        <li class="short-nav__item short-nav__item--buy">
-          <a href="#"><span class="screen-reader">Купить</span>
-            <svg role="presentation" width="20" height="20" fill="#999999">
-              <use xlink:href="#buy-icon"></use>
-            </svg>
+        <div class="product-card__image-wrapper">
+          <a href="#" class="product-card__image">
+            <img src="img/product-1.jpg" alt='Samsung Galaxy Tab E 9.6" 3G 8Gb (SM-T561NZKA) Black'>
           </a>
-        </li>
-      </ul>
-
-      <div class="product-card__additional">
-        <div class="card-promotion product-card__promotion">
-          <p class="card-promotion__info">
-            <span class="card-promotion__name">Акция</span><br>
-            <span class="card-promotion__desc">100 грн на первую покупку!</span>
-          </p>
-        </div>
-        <div class="product-card__quick-features">
-          <span class="product-card__features-info">Быстрые характеристики</span>
-          <ul class="product-card__features-list">
-            <li class="product-card__features-item">Li-Polymer</li>
-            <li class="product-card__features-item">7500 mAh</li>
-            <li class="product-card__features-item">5 V</li>
-            <li class="product-card__features-item">Время автономной работы в режиме ожидания 12 ч</li>
+          <ul class="product-card__colors">
+            <li class="product-card__color product-card__color--black product-card__color--active"><a href="#"><span class="screen-reader">Черный цвет</span></a></li>
+            <li class="product-card__color product-card__color--pink"><a href="#"><span class="screen-reader">Светло-розовый цвет</span></a></li>
           </ul>
         </div>
-      </div>
-    </li>
-  </ul>
+        <div class="product-card__container">
+          <div class="rating-stars">
+            <div class="rating-stars__stars-empty"></div>
+            <div class="rating-stars__stars-full"></div>
+            <span class="screen-reader">Рейтинг: </span>
+            <span class="rating-stars__number">5.0</span>
+          </div>
+          <div class="reviews-info product-card__reviews">
+            <a href="#" class="reviews-info__number">136 отзывов</span>
+          </div>
+        </div>
+        <p class="product-card__code">
+          <span class="product-card__code-text">Код: </span>
+          <span class="product-card__code-number">5G2MY-526123</span>
+        </p>
+        <p class="product-card__availability">В наличии</p>
+        <h2 class="product-card__name">
+          <a href="#">Samsung Galaxy Tab E 9.6" 3G 8Gb (SM-T561NZKA) Black</a>
+        </h2>
+        <ul class="product-card__memory-list">
+          <li class="product-card__memory-item product-card__memory-item--active">
+            <a href="#">16Gb</a>
+          </li>
+          <li class="product-card__memory-item">
+            <a href="#">32Gb</a>
+          </li>
+        </ul>
+        <div class="product-card__price-content">
+          <p class="product-card__discount-program">По программе «Цитрус Обмен»:</p>
+          <p class="product-card__price">
+            <span class="product-card__old-price">30 580</span>
+            <span class="product-card__original-price">22 599</span>
+            <span class="product-card__currency">грн</span>
+          </p>
+          <p class="product-card__economy">Экономия: <span class="product-card__economy-price">7 981 грн</span></p>
+        </div>
+        <ul class="short-nav product-card__short-nav">
+          <li class="short-nav__item short-nav__item--compare">
+            <button><span class="screen-reader">Сравнить товар</span>
+              <svg role="presentation" width="21" height="19" fill="#999999">
+                <use xlink:href="#compare-icon"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="short-nav__item short-nav__item--like">
+            <button><span class="screen-reader">Добавить в избранное</span>
+              <svg role="presentation" width="20" height="19" fill="#999999">
+                <use xlink:href="#like-icon"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="short-nav__item short-nav__item--buy">
+            <a href="#"><span class="screen-reader">Купить</span>
+              <svg role="presentation" width="20" height="20" fill="#999999">
+                <use xlink:href="#buy-icon"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <div class="product-card__additional">
+          <div class="card-promotion product-card__promotion">
+            <p class="card-promotion__info">
+              <span class="card-promotion__name">Акция</span><br>
+              <span class="card-promotion__desc">100 грн на первую покупку!</span>
+            </p>
+          </div>
+          <div class="product-card__quick-features">
+            <span class="product-card__features-info">Быстрые характеристики</span>
+            <ul class="product-card__features-list">
+              <li class="product-card__features-item">Li-Polymer</li>
+              <li class="product-card__features-item">7500 mAh</li>
+              <li class="product-card__features-item">5 V</li>
+              <li class="product-card__features-item">Время автономной работы в режиме ожидания 12 ч</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="product-card">
+        <ul class="product-card__view-list">
+          <li class="product-card__view-item product-card__view-item--youtube">
+            <a href="#">
+              <span class="screen-reader">посмотреть в Youtube</span>
+              <svg role="presentation" width="20" height="14" fill="#999999">
+                <use xlink:href="#youtube-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="product-card__view-item product-card__view-item--rotate">
+            <a href="#">
+              <svg role="presentation" width="22" height="19" fill="#999999">
+                <use xlink:href="#rotate-icon"></use>
+              </svg>
+              <span class="screen-reader">посмотреть на 360 градусов</span>
+            </a>
+          </li>
+        </ul>
+        <div class="product-card__image-wrapper">
+          <a href="#" class="product-card__image">
+            <img src="img/product-1.jpg" alt='Samsung Galaxy Tab E 9.6" 3G 8Gb (SM-T561NZKA) Black'>
+          </a>
+          <ul class="product-card__colors">
+            <li class="product-card__color product-card__color--black product-card__color--active"><a href="#"><span class="screen-reader">Черный цвет</span></a></li>
+            <li class="product-card__color product-card__color--pink"><a href="#"><span class="screen-reader">Светло-розовый цвет</span></a></li>
+          </ul>
+        </div>
+        <div class="product-card__container">
+          <div class="rating-stars">
+            <div class="rating-stars__stars-empty"></div>
+            <div class="rating-stars__stars-full"></div>
+            <span class="screen-reader">Рейтинг: </span>
+            <span class="rating-stars__number">2.3</span>
+          </div>
+          <div class="reviews-info product-card__reviews">
+            <a href="#" class="reviews-info__number">136 отзывов</span>
+          </div>
+        </div>
+        <p class="product-card__code">
+          <span class="product-card__code-text">Код: </span>
+          <span class="product-card__code-number">5G2MY-526123</span>
+        </p>
+        <p class="product-card__availability">В наличии</p>
+        <h2 class="product-card__name">
+          <a href="#">Samsung Galaxy Tab E 9.6" 3G 8Gb (SM-T561NZKA) Black</a>
+        </h2>
+        <ul class="product-card__memory-list">
+          <li class="product-card__memory-item product-card__memory-item--active">
+            <a href="#">16Gb</a>
+          </li>
+          <li class="product-card__memory-item">
+            <a href="#">32Gb</a>
+          </li>
+        </ul>
+        <div class="product-card__price-content">
+          <p class="product-card__discount-program">По программе «Цитрус Обмен»:</p>
+          <p class="product-card__price">
+            <span class="product-card__old-price">30 580</span>
+            <span class="product-card__original-price">22 599</span>
+            <span class="product-card__currency">грн</span>
+          </p>
+          <p class="product-card__economy">Экономия: <span class="product-card__economy-price">7 981 грн</span></p>
+        </div>
+        <ul class="short-nav product-card__short-nav">
+          <li class="short-nav__item short-nav__item--compare">
+            <button><span class="screen-reader">Сравнить товар</span>
+              <svg role="presentation" width="21" height="19" fill="#999999">
+                <use xlink:href="#compare-icon"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="short-nav__item short-nav__item--like">
+            <button><span class="screen-reader">Добавить в избранное</span>
+              <svg role="presentation" width="20" height="19" fill="#999999">
+                <use xlink:href="#like-icon"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="short-nav__item short-nav__item--buy">
+            <a href="#"><span class="screen-reader">Купить</span>
+              <svg role="presentation" width="20" height="20" fill="#999999">
+                <use xlink:href="#buy-icon"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <div class="product-card__additional">
+          <div class="card-promotion product-card__promotion">
+            <p class="card-promotion__info">
+              <span class="card-promotion__name">Акция</span><br>
+              <span class="card-promotion__desc">100 грн на первую покупку!</span>
+            </p>
+          </div>
+          <div class="product-card__quick-features">
+            <span class="product-card__features-info">Быстрые характеристики</span>
+            <ul class="product-card__features-list">
+              <li class="product-card__features-item">Li-Polymer</li>
+              <li class="product-card__features-item">7500 mAh</li>
+              <li class="product-card__features-item">5 V</li>
+              <li class="product-card__features-item">Время автономной работы в режиме ожидания 12 ч</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="product-card">
+        <ul class="product-card__view-list">
+          <li class="product-card__view-item product-card__view-item--youtube">
+            <a href="#">
+              <span class="screen-reader">посмотреть в Youtube</span>
+              <svg role="presentation" width="20" height="14" fill="#999999">
+                <use xlink:href="#youtube-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="product-card__view-item product-card__view-item--rotate">
+            <a href="#">
+              <svg role="presentation" width="22" height="19" fill="#999999">
+                <use xlink:href="#rotate-icon"></use>
+              </svg>
+              <span class="screen-reader">посмотреть на 360 градусов</span>
+            </a>
+          </li>
+        </ul>
+        <div class="product-card__image-wrapper">
+          <a href="#" class="product-card__image">
+            <img src="img/product-1.jpg" alt='Samsung Galaxy Tab E 9.6" 3G 8Gb (SM-T561NZKA) Black'>
+          </a>
+          <ul class="product-card__colors">
+            <li class="product-card__color product-card__color--black product-card__color--active"><a href="#"><span class="screen-reader">Черный цвет</span></a></li>
+            <li class="product-card__color product-card__color--pink"><a href="#"><span class="screen-reader">Светло-розовый цвет</span></a></li>
+          </ul>
+        </div>
+        <div class="product-card__container">
+          <div class="rating-stars">
+            <div class="rating-stars__stars-empty"></div>
+            <div class="rating-stars__stars-full"></div>
+            <span class="screen-reader">Рейтинг: </span>
+            <span class="rating-stars__number">7.8</span>
+          </div>
+          <div class="reviews-info product-card__reviews">
+            <a href="#" class="reviews-info__number">136 отзывов</span>
+          </div>
+        </div>
+        <p class="product-card__code">
+          <span class="product-card__code-text">Код: </span>
+          <span class="product-card__code-number">5G2MY-526123</span>
+        </p>
+        <p class="product-card__availability">В наличии</p>
+        <h2 class="product-card__name">
+          <a href="#">Samsung Galaxy Tab E 9.6" 3G 8Gb (SM-T561NZKA) Black</a>
+        </h2>
+        <ul class="product-card__memory-list">
+          <li class="product-card__memory-item product-card__memory-item--active">
+            <a href="#">16Gb</a>
+          </li>
+          <li class="product-card__memory-item">
+            <a href="#">32Gb</a>
+          </li>
+        </ul>
+        <div class="product-card__price-content">
+          <p class="product-card__discount-program">По программе «Цитрус Обмен»:</p>
+          <p class="product-card__price">
+            <span class="product-card__old-price">30 580</span>
+            <span class="product-card__original-price">22 599</span>
+            <span class="product-card__currency">грн</span>
+          </p>
+          <p class="product-card__economy">Экономия: <span class="product-card__economy-price">7 981 грн</span></p>
+        </div>
+        <ul class="short-nav product-card__short-nav">
+          <li class="short-nav__item short-nav__item--compare">
+            <button><span class="screen-reader">Сравнить товар</span>
+              <svg role="presentation" width="21" height="19" fill="#999999">
+                <use xlink:href="#compare-icon"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="short-nav__item short-nav__item--like">
+            <button><span class="screen-reader">Добавить в избранное</span>
+              <svg role="presentation" width="20" height="19" fill="#999999">
+                <use xlink:href="#like-icon"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="short-nav__item short-nav__item--buy">
+            <a href="#"><span class="screen-reader">Купить</span>
+              <svg role="presentation" width="20" height="20" fill="#999999">
+                <use xlink:href="#buy-icon"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <div class="product-card__additional">
+          <div class="card-promotion product-card__promotion">
+            <p class="card-promotion__info">
+              <span class="card-promotion__name">Акция</span><br>
+              <span class="card-promotion__desc">100 грн на первую покупку!</span>
+            </p>
+          </div>
+          <div class="product-card__quick-features">
+            <span class="product-card__features-info">Быстрые характеристики</span>
+            <ul class="product-card__features-list">
+              <li class="product-card__features-item">Li-Polymer</li>
+              <li class="product-card__features-item">7500 mAh</li>
+              <li class="product-card__features-item">5 V</li>
+              <li class="product-card__features-item">Время автономной работы в режиме ожидания 12 ч</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
 
 	<script src="js/script.min.js"></script>
 </body>
