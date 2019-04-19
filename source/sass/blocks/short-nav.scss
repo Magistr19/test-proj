@@ -1,18 +1,24 @@
 .short-nav {
-  padding-left: 0;
-  padding-top: 11px;
-  list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 164px;
+  padding-top: 11px;
+  padding-left: 26px;
+  padding-right: 26px;
+
+  list-style: none;
+
+  border-top: 1px solid $grey;
 }
 
 .short-nav__item {
-  button, a {
+  button,
+  a {
     @include btn-reset;
 
     display: block;
+
     line-height: 1px;
+
     cursor: pointer;
 
     &:focus {
