@@ -1,4 +1,6 @@
 .product-card {
+  position: relative;
+
   box-sizing: border-box;
   width: 249px;
   padding-top: 16px;
@@ -7,15 +9,19 @@
   padding-left: 16px;
 
   background-color: $white;
-  border-left: 1px solid #EBEBEB;
-  border-right: 1px solid #EBEBEB;
+  border-right: 1px solid #ebebeb;
+  border-left: 1px solid #ebebeb;
 }
 
 .product-card:hover {
-  border: 1px solid $green;
+  border-top: 1px solid $green;
+  border-right: 1px solid $green;
+  border-left: 1px solid $green;
 
   .product-card__additional {
     display: block;
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
@@ -57,7 +63,7 @@
   }
 
   svg:hover {
-      fill: $red;
+    fill: $red;
   }
 }
 
@@ -67,7 +73,7 @@
   }
 
   svg:hover {
-      fill: $orange;
+    fill: $orange;
   }
 }
 
@@ -112,12 +118,13 @@
     background-color: $black;
     border: 1px solid $white;
     border-radius: 4px;
+
     transition: opacity 0.2s ease-in;
 
     &:hover,
     &:focus {
-      box-shadow: 0 0 0 2px $grey;
       outline: none;
+      box-shadow: 0 0 0 2px $grey;
     }
 
     &:active {
@@ -208,8 +215,9 @@
 
     &:hover,
     &:focus {
-      outline: none;
       color: $orange;
+
+      outline: none;
     }
 
     &:active {
@@ -325,8 +333,26 @@
 }
 
 .product-card__additional {
-  display: none;
+  position: absolute;
+  right: -1px;
+  z-index: 1;
+
+  opacity: 0;
+  box-sizing: border-box;
+  width: 249px;
   padding-top: 24px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+
+  background: cover $white;
+  background-color: $white;
+  border-right: 1px solid $green;
+  border-bottom: 1px solid $green;
+  border-left: 1px solid $green;
+
+  transition: all 0.3s ease-in;
+  transform: translateY(-130px);
 }
 
 .product-card__promotion {
@@ -334,8 +360,8 @@
 }
 
 .product-card__features-info {
-  margin-bottom: 2px;
   display: block;
+  margin-bottom: 2px;
 }
 
 .product-card__features-info {
@@ -348,19 +374,22 @@
 
 .product-card__features-item {
   position: relative;
+
   padding-left: 22px;
 
   line-height: 19px;
   color: $grey;
 
   &::before {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: $grey;
-    position: absolute;
     content: "";
+    position: absolute;
     top: 7px;
     left: 5px;
+
+    width: 6px;
+    height: 6px;
+
+    background-color: $grey;
+    border-radius: 50%;
   }
 }
