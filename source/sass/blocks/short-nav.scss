@@ -1,0 +1,80 @@
+.short-nav {
+  padding-left: 0;
+  padding-top: 11px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 164px;
+}
+
+.short-nav__item {
+  button, a {
+    @include btn-reset;
+
+    display: block;
+    line-height: 1px;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  svg {
+    transition: all 0.2s ease-in;
+  }
+}
+
+.short-nav__item--compare {
+  button:focus svg {
+    fill: $green;
+  }
+
+  svg:hover {
+    fill: $green;
+  }
+
+  svg:active {
+    opacity: 0.8;
+  }
+}
+
+.short-nav__item--compare-active {
+  svg {
+    fill: $green;
+  }
+}
+
+.short-nav__item--like {
+  button:focus svg {
+    fill: $red;
+  }
+
+  svg:hover {
+    fill: $red;
+  }
+
+  svg:active {
+    opacity: 0.8;
+  }
+}
+
+.short-nav__item--like-active {
+  svg {
+    fill: $red;
+  }
+}
+
+.short-nav__item--buy {
+  a:focus svg {
+    fill: $green;
+  }
+
+  svg:hover {
+    fill: $green;
+  }
+
+  svg:active {
+    opacity: 0.8;
+  }
+}

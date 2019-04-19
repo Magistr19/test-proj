@@ -1,0 +1,24 @@
+.card-promotion {
+  padding-left: 48px;
+  padding-bottom: 6px;
+
+  background-image: url("../img/promotion.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.card-promotion__info {
+  @include p-reset;
+  padding-top: 2px;
+}
+
+.card-promotion__name {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card-promotion__desc {
+  font-size: 11px;
+  color: $orange;
+}
