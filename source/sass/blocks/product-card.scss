@@ -24,7 +24,7 @@
   .product-card__additional {
     display: block;
 
-    transform: translateY(100%);
+    transform: translateY(100%) scale(0.99999);
     opacity: 1;
   }
 }
@@ -62,20 +62,12 @@
 }
 
 .product-card__view-item--youtube {
-  a:focus svg {
-    fill: $red;
-  }
-
   svg:hover {
     fill: $red;
   }
 }
 
 .product-card__view-item--rotate {
-  a:focus svg {
-    fill: $orange;
-  }
-
   svg:hover {
     fill: $orange;
   }
@@ -358,6 +350,7 @@
   background-color: $white;
   border-right: 1px solid $green;
   border-left: 1px solid $green;
+  border-bottom: 1px solid $green;
   opacity: 0;
 
   transition: all 0.3s ease-in;

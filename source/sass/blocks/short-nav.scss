@@ -32,10 +32,6 @@
 }
 
 .short-nav__item--compare {
-  button:focus svg {
-    fill: $green;
-  }
-
   svg:hover {
     fill: $green;
   }
@@ -52,10 +48,6 @@
 }
 
 .short-nav__item--like {
-  button:focus svg {
-    fill: $red;
-  }
-
   svg:hover {
     fill: $red;
   }
@@ -72,10 +64,6 @@
 }
 
 .short-nav__item--buy {
-  a:focus svg {
-    fill: $green;
-  }
-
   svg:hover {
     fill: $green;
   }
